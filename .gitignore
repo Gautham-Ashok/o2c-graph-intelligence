@@ -1,26 +1,23 @@
-# Python
+
 backend/__pycache__/
 backend/*.pyc
 *.pyc
 *.pyo
 
-# Environment - NEVER commit this
+
 backend/.env
 .env
 
-# Dataset - too large for GitHub
+
 dataset/
 
-# Frontend build output
 frontend/dist/
 frontend/node_modules/
 
-# Debug scripts
 backend/debug.py
 
-# Vite
+
 frontend/.vite/
 
-# OS files
 .DS_Store
 Thumbs.db
