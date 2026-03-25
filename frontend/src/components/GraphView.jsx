@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://o2c-graph-intelligence-production.up.railway.app";
 
 const NODE_COLORS = {
   sales_order: "#3b82f6",

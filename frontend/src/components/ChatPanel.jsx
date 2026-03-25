@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://o2c-graph-intelligence-production.up.railway.app";
 
 export default function ChatPanel({ onHighlight }) {
   const [messages, setMessages] = useState([
